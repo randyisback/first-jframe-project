@@ -44,6 +44,7 @@ public class SecondForm extends javax.swing.JFrame {
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Tamsayı Veri tipleri Hakkında Bilgi");
 
+        buton1.setBackground(java.awt.Color.cyan);
         buton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         buton1.setText("TIKLA ÖĞREN");
         buton1.setName(""); // NOI18N
@@ -61,6 +62,7 @@ public class SecondForm extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 18)); // NOI18N
         jLabel1.setText("BYTE");
 
+        buton2.setBackground(java.awt.Color.cyan);
         buton2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         buton2.setText("TIKLA ÖĞREN");
         buton2.setName(""); // NOI18N
@@ -78,6 +80,7 @@ public class SecondForm extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 18)); // NOI18N
         jLabel3.setText("BYTE");
 
+        buton3.setBackground(java.awt.Color.cyan);
         buton3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         buton3.setText("TIKLA ÖĞREN");
         buton3.setName(""); // NOI18N
@@ -95,6 +98,7 @@ public class SecondForm extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 18)); // NOI18N
         jLabel4.setText("BYTE");
 
+        buton4.setBackground(java.awt.Color.cyan);
         buton4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         buton4.setText("TIKLA ÖĞREN");
         buton4.setName(""); // NOI18N
@@ -109,9 +113,11 @@ public class SecondForm extends javax.swing.JFrame {
             }
         });
 
+        jLabel5.setBackground(java.awt.Color.cyan);
         jLabel5.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 18)); // NOI18N
         jLabel5.setText("BYTE");
 
+        buton5.setBackground(java.awt.Color.cyan);
         buton5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         buton5.setText("TIKLA ÖĞREN");
         buton5.setName(""); // NOI18N
@@ -126,6 +132,7 @@ public class SecondForm extends javax.swing.JFrame {
             }
         });
 
+        jLabel6.setBackground(java.awt.Color.cyan);
         jLabel6.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 18)); // NOI18N
         jLabel6.setText("BYTE");
 
