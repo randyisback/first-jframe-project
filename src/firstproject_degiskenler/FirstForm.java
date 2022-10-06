@@ -37,9 +37,11 @@ public class FirstForm extends javax.swing.JFrame {
         btnGecis1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setBackground(new java.awt.Color(255, 204, 204));
+        setBackground(new java.awt.Color(255, 255, 255));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        setResizable(false);
 
+        buton1.setBackground(new java.awt.Color(204, 255, 255));
         buton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         buton1.setText("TIKLA ÖĞREN");
         buton1.setName(""); // NOI18N
@@ -54,6 +56,7 @@ public class FirstForm extends javax.swing.JFrame {
             }
         });
 
+        jLabel1.setBackground(new java.awt.Color(204, 255, 255));
         jLabel1.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 18)); // NOI18N
         jLabel1.setText("BYTE");
 
@@ -61,6 +64,7 @@ public class FirstForm extends javax.swing.JFrame {
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Tamsayı Veri tipleri Hakkında Bilgi");
 
+        buton2.setBackground(new java.awt.Color(204, 255, 255));
         buton2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         buton2.setText("TIKLA ÖĞREN");
         buton2.setName(""); // NOI18N
@@ -75,9 +79,11 @@ public class FirstForm extends javax.swing.JFrame {
             }
         });
 
+        jLabel3.setBackground(new java.awt.Color(204, 255, 255));
         jLabel3.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 18)); // NOI18N
         jLabel3.setText("SHORT");
 
+        buton3.setBackground(new java.awt.Color(204, 255, 255));
         buton3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         buton3.setText("TIKLA ÖĞREN");
         buton3.setName(""); // NOI18N
@@ -92,9 +98,11 @@ public class FirstForm extends javax.swing.JFrame {
             }
         });
 
+        jLabel4.setBackground(new java.awt.Color(204, 255, 255));
         jLabel4.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 18)); // NOI18N
         jLabel4.setText("INT");
 
+        buton4.setBackground(new java.awt.Color(204, 255, 255));
         buton4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         buton4.setText("TIKLA ÖĞREN");
         buton4.setName(""); // NOI18N
@@ -109,9 +117,11 @@ public class FirstForm extends javax.swing.JFrame {
             }
         });
 
+        jLabel5.setBackground(new java.awt.Color(204, 255, 255));
         jLabel5.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 18)); // NOI18N
         jLabel5.setText("LONG");
 
+        btnGecis1.setBackground(new java.awt.Color(204, 255, 255));
         btnGecis1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         btnGecis1.setText("SONRAKİ SAYFA");
         btnGecis1.addActionListener(new java.awt.event.ActionListener() {
@@ -181,6 +191,7 @@ public class FirstForm extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void buton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buton1MouseClicked
@@ -229,6 +240,9 @@ public class FirstForm extends javax.swing.JFrame {
         // TODO add your handling code here:
         SecondForm frame = new SecondForm();
         frame.setVisible(true);
+        
+       //FirstForm frame2 = new FirstForm();
+       //frame2.setVisible(false);
     }//GEN-LAST:event_btnGecis1ActionPerformed
 
     /**
